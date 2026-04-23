@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# ML model weights & artifacts (large binary files)
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.npy
+*.h5
+
+# Large video files (veh6.mp4 = 250 MB — exceeds GitHub 100 MB limit)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated output files
+output/
+*.csv
+logs/
+
+# IDE / OS artifacts
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
